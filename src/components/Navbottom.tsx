@@ -13,9 +13,9 @@ const Navbottom = () => {
   };
 
   return (
-    <nav className="container bottom-0 fixed backdrop-blur-xl text-orange-600">
+    <nav className="container bottom-0 fixed backdrop-blur-xl text-acai">
       <div className="flex justify-center items-center">
-        <Image className="mr-8" src="/logo.png" width={50} height={50} alt="logo" />
+        <Image className="mr-8" src="/logo-quintal.png" width={50} height={50} alt="logo" />
         <ul className="flex gap-6 items-center font-semibold text-[14px]">
           <li className={isActive("/")}>
             <Link href="/">Pastel</Link>

@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import MenuCard from "./MenuCard";
 
 const menuData = [
@@ -83,7 +82,7 @@ const Menu = () => {
     <div className="container pt-6">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-3xl font-bold">
-          Delicioso <span className="text-accent">pastel!</span>
+          Delicioso <span className="text-acai">pastel!</span>
         </h2>
         <p className="text-gray-700">
           Escolha seus sabores! 😝

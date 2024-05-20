@@ -44,7 +44,7 @@ const Menu = () => {
   return (
     <div className="container pt-6">
       <div className="space-y-4 w-fit mx-auto text-center">
-        <h2 className="text-3xl font-bold">
+        <h2 className="text-3xl font-bold text-acai">
           Bebidas
         </h2>
         <p className="text-gray-700">

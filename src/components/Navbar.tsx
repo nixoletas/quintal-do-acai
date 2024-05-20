@@ -9,13 +9,13 @@ const Navbar = () => {
   const pathname = usePathname();
 
   const isActive = (href: string) => {
-    return pathname === href ? "text-orange-600" : "";
+    return pathname === href ? "text-acai" : "";
   };
 
   return (
     <nav className="container pt-6 ">
       <div className="flex justify-center items-center">
-        <Image className="mr-8" src="/logo.png" width={50} height={50} alt="logo" />
+        <Image className="mr-8" src="/logo-quintal.png" width={50} height={50} alt="logo" />
         <ul className="flex gap-6 items-center font-semibold text-[14px]">
           <li className={isActive("/")}>
             <Link href="/">Pastel</Link>

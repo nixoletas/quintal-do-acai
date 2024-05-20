@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="pt-20 container">
       <div className="grid md:grid-cols-3 gap-16">
         <div className="space-y-4">
-          <div className="flex gap-8 pl-2 text-accent text-2xl pt-10">
+          <div className="flex gap-8 pl-2 text-acai text-2xl pt-10">
             <FaFacebookF />
             <FaInstagram />
             <FaMapPin />

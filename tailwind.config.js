@@ -13,6 +13,8 @@ module.exports = {
       },
       colors: {
         accent: "#f94c25",
+        acai: "#572143",
+        folha: "#5c9332"
       },
     },
   },

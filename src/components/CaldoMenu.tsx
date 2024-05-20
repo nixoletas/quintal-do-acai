@@ -39,7 +39,7 @@ const Menu = () => {
     <div className="container pt-6">
       <div className="space-y-4 w-fit mx-auto text-center">
         <h2 className="text-3xl font-bold">
-          <span className="text-accent">Caldo de cana </span>pra refrescar!
+          <span className="text-acai">Caldo de cana </span>pra refrescar!
         </h2>
         <p className="text-gray-700">
           Sempre é bom! 😝
