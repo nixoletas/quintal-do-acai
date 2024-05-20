@@ -16,6 +16,9 @@ module.exports = {
         acai: "#572143",
         folha: "#5c9332"
       },
+      fontFamily: {
+        nimbus: ['Nimbus Sans', 'sans-serif'], // Adicione a fonte Nimbus Sans aqui
+      },
     },
   },
   plugins: [],
