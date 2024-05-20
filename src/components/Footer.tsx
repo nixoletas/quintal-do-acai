@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMapPin, FaMapSigns } from "react-icons/fa";
 
@@ -7,9 +8,9 @@ const Footer = () => {
       <div className="grid md:grid-cols-3 gap-16">
         <div className="space-y-4">
           <div className="flex gap-8 pl-2 text-acai text-2xl pt-10">
-            <FaFacebookF />
-            <FaInstagram />
-            <FaMapPin />
+            <Link href="https://maps.app.goo.gl/eTarQ9RpQyXifXXW9">
+            <FaMapPin href="https://maps.app.goo.gl/eTarQ9RpQyXifXXW9" />
+            </Link>
           </div>
           <h2 className="pl-2 text-xl font-bold">Sobre nós</h2>
           <p className="pl-2 text-left">

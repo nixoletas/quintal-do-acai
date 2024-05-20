@@ -73,7 +73,7 @@ const Menu = () => {
           <span className="text-acai">Açaí</span> completinho!
         </h2>
         <p className="text-gray-700">
-          Escolha seus tamanhos e complementos! 😝
+          Escolha seus tamanhos e acompanhamentos!
         </p>
       </div>
       <div className="justify-center pt-10">

@@ -85,7 +85,7 @@ const Menu = () => {
           Delicioso <span className="text-acai">pastel!</span>
         </h2>
         <p className="text-gray-700">
-          Escolha seus sabores! 😝
+          Escolha seus sabores!
         </p>
       </div>
       <div className="justify-center pt-10">

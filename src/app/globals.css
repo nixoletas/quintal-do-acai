@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+  
+@font-face {
+    font-family: 'TAN Nimbus';
+    src: url('/fonts/TAN-NIMBUS.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Se você tiver outras variações de peso ou estilo, adicione-as também */
+  @font-face {
+    font-family: 'TAN Nimbus';
+    src: url('/fonts/TAN-NIMBUS-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  

@@ -17,7 +17,7 @@ module.exports = {
         folha: "#5c9332"
       },
       fontFamily: {
-        nimbus: ['Nimbus Sans', 'sans-serif'], // Adicione a fonte Nimbus Sans aqui
+        'tan-nimbus': ['TAN Nimbus', 'sans-serif'], // Adicione a nova fonte aqui
       },
     },
   },

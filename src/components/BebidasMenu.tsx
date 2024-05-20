@@ -48,7 +48,7 @@ const Menu = () => {
           Bebidas
         </h2>
         <p className="text-gray-700">
-          Não pode faltar pra acompanhar um pastelizinho! 😝
+          Pra acompanhar um pastelizinho!
         </p>
       </div>
       <div className="justify-center pt-10">
