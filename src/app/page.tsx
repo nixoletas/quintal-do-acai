@@ -6,7 +6,6 @@ import Navbottom from "@/components/Navbottom";
 export default function Home() {
   return (
     <main>
-      <Hero />
       <Navbar />
       <Menu />
       <Navbottom />
