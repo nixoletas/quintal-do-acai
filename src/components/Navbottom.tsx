@@ -9,7 +9,7 @@ const Navbottom = () => {
   const pathname = usePathname();
 
   const isActive = (href: string) => {
-    return pathname === href ? "text-white" : "";
+    return pathname === href ? "text-white underline underline-offset-4" : "";
   };
 
   return (

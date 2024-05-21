@@ -9,7 +9,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   const isActive = (href: string) => {
-    return pathname === href ? "text-white border rounded-lg bg-acai p-2" : "";
+    return pathname === href ? "text-acai underline underline-offset-4" : "";
   };
 
   return (

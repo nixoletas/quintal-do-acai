@@ -59,13 +59,13 @@ const menuData = [
   {
     img: "/pastel.jpg",
     title: "Nuttela com morango",
-    desc: "Vai uma frutinha pra ficar ainda melhor",
+    desc: "Pastel doce de Nuttela com morango",
     price: "16.00",
   },
   {
     img: "/pastel.jpg",
     title: "Banana com canela",
-    desc: "Yuuumy",
+    desc: "Pastel doce de banana com canela",
     price: "14.00",
   },
   {
