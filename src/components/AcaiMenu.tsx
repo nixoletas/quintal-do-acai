@@ -45,19 +45,19 @@ const acompanhamentos = [
     title: "Chocolate",
   },
   {
-    img: "/complementos/chocolate.avif",
+    img: "/complementos/amendoim.png",
     title: "Amendoim",
   },
   {
-    img: "/complementos/chocolate.avif",
+    img: "/complementos/mm.png",
     title: "M&M",
   },
   {
-    img: "/complementos/chocolate.avif",
+    img: "/complementos/ovo_maltine.png",
     title: "Ovo Maltine",
   },
   {
-    img: "/complementos/chocolate.avif",
+    img: "/complementos/flocos.png",
     title: "Flocos",
   },
 ];
@@ -80,11 +80,11 @@ const frutas = [
     title: "Uva",
   },
   {
-    img: "/complementos/uva.avif",
+    img: "/complementos/manga.png",
     title: "Manga",
   },
   {
-    img: "/complementos/uva.avif",
+    img: "/complementos/abacaxi.png",
     title: "Abacaxi",
   },
 ];
