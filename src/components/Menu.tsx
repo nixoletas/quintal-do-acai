@@ -51,6 +51,16 @@ const menuData = [
     price: "13.00",
   },
   {
+    img: "/cafe.jpg",
+    title: "Café",
+    desc: "Cafezinho que todo brasileiro ama!",
+    price: "1.00",
+  },
+  
+];
+
+const pasteisDoces = [
+  {
     img: "/pastel.jpg",
     title: "Nuttela",
     desc: "Pastel doce de Nuttela",
@@ -66,16 +76,15 @@ const menuData = [
     img: "/pastel.jpg",
     title: "Banana c/ canela",
     desc: "Pastel doce de banana com canela",
-    price: "14.00",
+    price: "10.00",
   },
   {
-    img: "/cafe.jpg",
-    title: "Café",
-    desc: "Cafezinho que todo brasileiro ama!",
-    price: "1.00",
+    img: "/pastel.jpg",
+    title: "Banana c/ canela e queijo",
+    desc: "Pastel doce de banana com canela e queijo",
+    price: "14.00",
   },
-  
-];
+]
 
 const Menu = () => {
   return (
@@ -91,6 +100,18 @@ const Menu = () => {
       <div className="justify-center pt-10">
         <div className="grid w-fit mx-auto sm:grid-cols-2 gap-4">
           {menuData.map((item, index) => (
+            <MenuCard
+              key={index}
+              img={item.img}
+              title={item.title}
+              desc={item.desc}
+              price={item.price}
+            />
+          ))}
+        </div>
+          <h1 className="text-center font-bold pt-12">Pastéis doces</h1>
+        <div className="grid w-fit mx-auto sm:grid-cols-2 gap-4 pt-12">
+          {pasteisDoces.map((item, index) => (
             <MenuCard
               key={index}
               img={item.img}
