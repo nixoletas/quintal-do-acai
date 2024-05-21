@@ -40,13 +40,13 @@ const menuData = [
   },
   {
     img: "/pastel.jpg",
-    title: "Palmito com carne",
+    title: "Palmito c/ carne",
     desc: "Pastel de palmito com carne",
     price: "13.00",
   },
   {
     img: "/pastel.jpg",
-    title: "Palmito com queijo",
+    title: "Palmito c/ queijo",
     desc: "Pastel de palmito com queijo",
     price: "13.00",
   },
@@ -58,13 +58,13 @@ const menuData = [
   },
   {
     img: "/pastel.jpg",
-    title: "Nuttela com morango",
+    title: "Nuttela c/ morango",
     desc: "Pastel doce de Nuttela com morango",
     price: "16.00",
   },
   {
     img: "/pastel.jpg",
-    title: "Banana com canela",
+    title: "Banana c/ canela",
     desc: "Pastel doce de banana com canela",
     price: "14.00",
   },
