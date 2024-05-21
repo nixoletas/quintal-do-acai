@@ -9,13 +9,15 @@ const Navbar = () => {
   const pathname = usePathname();
 
   const isActive = (href: string) => {
-    return pathname === href ? "text-acai" : "";
+    return pathname === href ? "text-white border rounded-lg bg-acai p-2" : "";
   };
 
   return (
-    <nav className="container pt-6 ">
+    <nav className="container pt-6">
       <div className="flex justify-center items-center">
-        <Image className="mr-8" src="/logo-quintal.png" width={50} height={50} alt="logo" />
+        <Link href="/">
+        <Image className="mr-8 hover:scale-110 transition-all" src="/logo-quintal.png" width={50} height={50} alt="logo" />
+        </Link>
         <ul className="flex gap-6 items-center font-semibold text-[14px]">
           <li className={isActive("/")}>
             <Link href="/">Pastel</Link>

@@ -9,11 +9,11 @@ const Navbottom = () => {
   const pathname = usePathname();
 
   const isActive = (href: string) => {
-    return pathname === href ? "text-black" : "";
+    return pathname === href ? "text-white" : "";
   };
 
   return (
-    <nav className="container bottom-0 fixed backdrop-blur-xl text-acai">
+    <nav className="container bottom-0 fixed p-2 backdrop-blur-xl w-screen bg-acai/70">
       <div className="flex justify-center items-center">
         <Image className="mr-8" src="/logo-quintal.png" width={50} height={50} alt="logo" />
         <ul className="flex gap-6 items-center font-semibold text-[14px]">

@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMapPin, FaMapSigns } from "re
 
 const Footer = () => {
   return (
-    <div className="pt-20 container mb-20">
+    <div className="pt-20 container mb-32">
       <div className="grid md:grid-cols-3 gap-16">
         <div className="space-y-4">
           <div className="flex gap-8 pl-2 text-acai text-2xl pt-10">
