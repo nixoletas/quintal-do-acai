@@ -38,6 +38,12 @@ const menuData = [
     desc: "500ml - uva, limão, maracujá",
     price: "10.00",
   },
+  {
+    img: "/cafe.jpg",
+    title: "Café",
+    desc: "Cafezinho que todo brasileiro ama!",
+    price: "1.00",
+  },
 ];
 
 const Menu = () => {

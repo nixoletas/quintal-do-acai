@@ -50,12 +50,6 @@ const menuData = [
     desc: "Pastel de palmito com queijo",
     price: "13.00",
   },
-  {
-    img: "/cafe.jpg",
-    title: "Café",
-    desc: "Cafezinho que todo brasileiro ama!",
-    price: "1.00",
-  },
   
 ];
 
