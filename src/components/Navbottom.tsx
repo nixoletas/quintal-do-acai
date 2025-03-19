@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -13,9 +13,15 @@ const Navbottom = () => {
   };
 
   return (
-    <nav className="container bottom-0 fixed p-2 backdrop-blur-xl w-screen bg-acai/70">
+    <nav className=" bottom-0 fixed p-2 backdrop-blur-xl w-full bg-acai/70">
       <div className="flex justify-center items-center">
-        <Image className="mr-8" src="/logo-quintal.png" width={50} height={50} alt="logo" />
+        <Image
+          className="mr-8"
+          src="/logo-quintal.png"
+          width={50}
+          height={50}
+          alt="logo"
+        />
         <ul className="flex gap-6 items-center font-semibold text-[14px]">
           <li className={isActive("/")}>
             <Link href="/">Pastel</Link>
